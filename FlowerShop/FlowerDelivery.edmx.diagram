@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2e98bb64ee674535a72dd62d7eb86475" Name="Diagram1">
+        <EntityTypeShape EntityType="FlowerDeliveryModel.OrderDetails" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerDeliveryModel.Orders" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerDeliveryModel.ProductCategories" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerDeliveryModel.Products" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerDeliveryModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlowerDeliveryModel.Users" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="FlowerDeliveryModel.FK__OrderDeta__Order__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerDeliveryModel.FK__OrderDeta__Produ__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerDeliveryModel.FK__Orders__UserID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="FlowerDeliveryModel.FK__Products__Catego__3D5E1FD2" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

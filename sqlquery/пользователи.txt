@@ -1,0 +1,6 @@
+Users user = new Users{
+    Username = "contentmaker",
+    Password = "contentpass",
+    Email = "content@mail.ru",
+    Role = "менеджерконтента"
+};
